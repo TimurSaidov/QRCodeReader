@@ -12,6 +12,7 @@
 		39A9339F23B365570087F451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A9339D23B365570087F451 /* Main.storyboard */; };
 		39A933A123B365580087F451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A933A023B365580087F451 /* Assets.xcassets */; };
 		39A933A423B365580087F451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A933A223B365580087F451 /* LaunchScreen.storyboard */; };
+		39A933AC23B38F030087F451 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A933AB23B38F030087F451 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		39A933A023B365580087F451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39A933A323B365580087F451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39A933A523B365580087F451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39A933AB23B38F030087F451 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				39A9339923B365570087F451 /* AppDelegate.swift */,
 				39A9339B23B365570087F451 /* ViewController.swift */,
+				39A933AB23B38F030087F451 /* SecondViewController.swift */,
 				39A9339D23B365570087F451 /* Main.storyboard */,
 				39A933A023B365580087F451 /* Assets.xcassets */,
 				39A933A223B365580087F451 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39A933AC23B38F030087F451 /* SecondViewController.swift in Sources */,
 				39A9339C23B365570087F451 /* ViewController.swift in Sources */,
 				39A9339A23B365570087F451 /* AppDelegate.swift in Sources */,
 			);
@@ -283,7 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 77L3PZFTBJ;
+				DEVELOPMENT_TEAM = 5A9EHVHTM9;
 				INFOPLIST_FILE = QRCodeReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 77L3PZFTBJ;
+				DEVELOPMENT_TEAM = 5A9EHVHTM9;
 				INFOPLIST_FILE = QRCodeReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
